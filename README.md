@@ -41,3 +41,35 @@ The icons used in this project were carefully curated from reputable sources to 
   - A comprehensive resource for high-quality icons
   - Offers a wide variety of styles and themes
   - Ensures proper licensing for used icons
+
+
+# Index
+
+<details>
+<summary>OS and Software</summary>
+
+## Android
+<img src="./creator/output/blossom_android.png" width="30%">
+
+## BE OS
+<img src="./creator/output/blossom_be-os.png" width="30%">
+
+## Chrome
+<img src="./creator/output/blossom_chrome.png" width="30%">
+
+## Debian
+<img src="./creator/output/blossom_debian.png" width="30%">
+
+## DOS
+<img src="./creator/output/blossom_dos.png" width="30%">
+
+## Firefox
+<img src="./creator/output/blossom_firefox.png" width="30%">
+
+## Free BSD
+<img src="./creator/output/blossom_free-bsd.png" width="30%">
+
+## Haiku
+<img src="./creator/output/blossom_haiku.png" width="30%">
+
+</details>
