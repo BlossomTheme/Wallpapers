@@ -49,46 +49,69 @@ The icons used in this project were carefully curated from reputable sources to 
 <summary>OS and Software</summary>
 
 ## Android
-<img src="./creator/output/blossom_android.png" width="30%">
+<img src="./wallpapers/blossom_android.png" width="30%">
 
 ## BE OS
-<img src="./creator/output/blossom_be-os.png" width="30%">
+<img src="./wallpapers/blossom_be-os.png" width="30%">
 
 ## Chrome
-<img src="./creator/output/blossom_chrome.png" width="30%">
+<img src="./wallpapers/blossom_chrome.png" width="30%">
 
 ## Debian
-<img src="./creator/output/blossom_debian.png" width="30%">
+<img src="./wallpapers/blossom_debian.png" width="30%">
 
 ## DOS
-<img src="./creator/output/blossom_dos.png" width="30%">
+<img src="./wallpapers/blossom_dos.png" width="30%">
 
 ## Firefox
-<img src="./creator/output/blossom_firefox.png" width="30%">
+<img src="./wallpapers/blossom_firefox.png" width="30%">
 
 ## Free BSD
-<img src="./creator/output/blossom_free-bsd.png" width="30%">
+<img src="./wallpapers/blossom_free-bsd.png" width="30%">
 
 ## Haiku
-<img src="./creator/output/blossom_haiku.png" width="30%">
+<img src="./wallpapers/blossom_haiku.png" width="30%">
 
 ## Internet Explorer
-<img src="./creator/output/blossom_internet-explorer.png" width="30%">
+<img src="./wallpapers/blossom_internet-explorer.png" width="30%">
 
 ## Linux
-<img src="./creator/output/blossom_linux.png" width="30%">
+<img src="./wallpapers/blossom_linux.png" width="30%">
 
 ## Mac OS
-<img src="./creator/output/blossom_mac-os.png" width="30%">
+<img src="./wallpapers/blossom_mac-os.png" width="30%">
 
 ## Mandriva
-<img src="./creator/output/blossom_mandriva.png" width="30%">
+<img src="./wallpapers/blossom_mandriva.png" width="30%">
 
 ## Netscape
-<img src="./creator/output/blossom_netscape.png" width="30%">
+<img src="./wallpapers/blossom_netscape.png" width="30%">
 
 ## Opera
-<img src="./creator/output/blossom_opera.png" width="30%">
+<img src="./wallpapers/blossom_opera.png" width="30%">
 
+## OS 2
+<img src="./wallpapers/blossom_os-2.png" width="30%">
+
+## Red Hat
+<img src="./wallpapers/blossom_red-hat.png" width="30%">
+
+## Safari
+<img src="./wallpapers/blossom_safari.png" width="30%">
+
+## Suse
+<img src="./wallpapers/blossom_suse.png" width="30%">
+
+## Symbian
+<img src="./wallpapers/blossom_symbian.png" width="30%">
+
+## System 76
+<img src="./wallpapers/blossom_system-76.png" width="30%">
+
+## Unix
+<img src="./wallpapers/blossom_unix.png" width="30%">
+
+## Windows
+<img src="./wallpapers/blossom_windows.png" width="30%">
 
 </details>
