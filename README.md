@@ -72,4 +72,23 @@ The icons used in this project were carefully curated from reputable sources to 
 ## Haiku
 <img src="./creator/output/blossom_haiku.png" width="30%">
 
+## Internet Explorer
+<img src="./creator/output/blossom_internet-explorer.png" width="30%">
+
+## Linux
+<img src="./creator/output/blossom_linux.png" width="30%">
+
+## Mac OS
+<img src="./creator/output/blossom_mac-os.png" width="30%">
+
+## Mandriva
+<img src="./creator/output/blossom_mandriva.png" width="30%">
+
+## Netscape
+<img src="./creator/output/blossom_netscape.png" width="30%">
+
+## Opera
+<img src="./creator/output/blossom_opera.png" width="30%">
+
+
 </details>
