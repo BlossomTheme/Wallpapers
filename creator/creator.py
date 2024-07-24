@@ -1,4 +1,11 @@
 from PIL import Image
+import os 
+
+def create_wallpaper(image):
+    bg = PIL.Image.new(mode = "RGB", size = (200, 200), color = (16, 17, 27))
+
+
+
 
 def change_icon_color(input_path, output_path, new_color):
     # Open the image
@@ -26,14 +33,22 @@ def change_icon_color(input_path, output_path, new_color):
     # Update the image with new data
     img.putdata(new_data)
     
-    # Save the new image
-    img.save(output_path, "PNG")
-    print(f"New icon saved as {output_path}")
+    create_wallpaper(image)
 
+def process_folder(input_folder, output_folder, new_color):
+    # Create output folder if it doesn't exist
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    
+    # Loop through all files in the input folder
+    for filename in os.listdir(input_folder):
+        if filename.lower().endswith('.png'):
+            input_path = os.path.join(input_folder, filename)
+            output_path = os.path.join(output_folder, f"blossom_{filename}")
+            change_icon_color(input_path, output_path, new_color)
 
-input_file = "./test.png"  # Replace with your input file name
-output_file = "pink_icon.png"  # Replace with your desired output file name
+input_folder = "./icons"  # Replace with your input folder path
+output_folder = "./output"  # Replace with your desired output folder path
 pink_color = (255, 5, 141)  # RGB values for pink (you can change this)
 
-
-change_icon_color(input_file, output_file, pink_color)
+process_folder(input_folder, output_folder, pink_color)
