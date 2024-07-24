@@ -1,11 +1,20 @@
 from PIL import Image
 import os 
 
-def create_wallpaper(image):
-    bg = PIL.Image.new(mode = "RGB", size = (200, 200), color = (16, 17, 27))
+def create_wallpaper(image, output_path):
+    bg = Image.new(mode = "RGB", size = (1920, 1080), color = (16, 17, 27))
 
+    bg_width, bg_height = bg.size
+    ov_width, ov_height = image.size
+    
+    x = (bg_width - ov_width) // 2
+    y = (bg_height - ov_height) // 2
 
+    bg.paste(image, (x, y), image)
 
+    # Save the new image
+    bg.save(output_path, "PNG")
+    print(f"New wallpaper saved as {output_path}")
 
 def change_icon_color(input_path, output_path, new_color):
     # Open the image
@@ -33,7 +42,7 @@ def change_icon_color(input_path, output_path, new_color):
     # Update the image with new data
     img.putdata(new_data)
     
-    create_wallpaper(image)
+    create_wallpaper(img, output_path)
 
 def process_folder(input_folder, output_folder, new_color):
     # Create output folder if it doesn't exist
