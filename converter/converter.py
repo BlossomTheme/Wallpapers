@@ -17,3 +17,19 @@ def convert_to_two_color(input_path, output_path, color1, color2, threshold=128)
     result_img = Image.fromarray(result)
 
     result_img.save(output_path)
+
+input_folder = "input"
+output_folder = "output"
+
+os.makedirs(output_folder, exist_ok=True)
+
+color1 = (255, 5, 141) 
+color2 = (16, 17, 27)
+
+for filename in os.listdir(input_folder):
+    if filename.endswith((".png", ".jpg", ".jpeg")):
+        input_path = os.path.join(input_folder, filename)
+        output_path = os.path.join(output_folder, f"two_color_{filename}")
+        convert_to_two_color(input_path, output_path, color1, color2)
+
+print("Conversion complete!")
